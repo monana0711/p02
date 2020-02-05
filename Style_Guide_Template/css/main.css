@@ -1,0 +1,168 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 0.5em 0;
+  border-top: 1px solid #333;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+section p {
+  margin-top: 0;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.25em 0.75em;
+}
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.rendered-button {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  background-color: #7D8971;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.rendered-button:hover,.rendered-button:focus {
+  background-color: #616870;
+}
+
+
+
+
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+.in-text {
+  color: #737C6B;
+  text-decoration: none;
+}
+
+.in-text:hover,.in-text:focus {
+  font-style: italic;
+  color:#F487D0;
+
+}
+
+/* 
+  SUBMIT ELEMENTS -------------------
+*/
+
+.submit-btn{
+  display: inline-block;
+  padding: 0.7rem;
+  margin:0.3rem;
+  color: #FFF;
+  background-color: #737C6B;
+  border-radius: 0.25em;
+  text-decoration: none;
+}
+
+.reset-btn{
+  display: inline-block;
+  padding: 0.7rem;
+  margin:0.3rem;
+  color: #FFF;
+  background-color: #737C6B;
+  border-radius: 0.25em;
+  text-decoration: none;
+}
+
+.heading-one{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size:4rem;
+  color:#737C6B;
+}
+
+.heading-two{
+  font-family: 'Montserrat', sans-serif;
+  font-size:2rem;
+  font-weight: bold;
+  color:#616870;
+}
+
+.heading-three{
+  font-family: 'Nunito', sans-serif;
+  font-size:1.5rem;
+  font-weight: bold;
+  color:#616870;
+}
+
+.main-paragraph{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.num-list a{
+  color:#616870;
+  text-decoration: none;
+}
+
+.num-list a:hover,.num-list a:focus{
+  color:#F487D0;
+  text-decoration: underline;
+}
+
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+
+nav#menu{
+  display:flex;
+}
+
+
+.main-nav {
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  text-decoration: none;
+  background-color: #7D8971;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+
+.main-nav:hover,.main-nav:focus {
+  background-color: #616870;
+  text-decoration: underline;
+}
+
+.products{
+   margin: 1em;
+   font-weight:bold;
+}
+
+.product_list{
+   display:flex;
+}
+
+img{
+   width:250px;
+}
+
+.header>div{
+   display:inline;
+}

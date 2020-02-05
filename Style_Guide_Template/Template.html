@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Style Guide Template</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <h1>Style Guide Template</h1>
+
+    <p>A template you can use to start building out your own style guides with.</p>
+
+
+    <nav>
+      
+      <p>
+        Go to:
+        <a href="#interactive_elements">Interactive Elements</a>,
+        <a href="#text_elements">Text Elements</a>,
+        <a href="#combined_elements">Combined Elements</a>,
+      </p>
+
+    </nav>
+
+            <nav>
+      
+      <p>
+        Link to
+
+        <a href="Template.html">styleguide</a>
+        <a href="sitemap.html">sitemap</a>
+        <a href="citations.html">Reference citations</a>
+      </p>
+
+    </nav>
+
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+
+      <!-- Default Button styling section -->
+      <section>
+
+        <h2>Navigation Button</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.rendered-button</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="rendered-button"&gt;Default Button&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a class="rendered-button">Default Button</a>
+
+      </section>
+
+      <section>
+        <h2>In-text link</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.In-text link</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="in-text"&gt;In-text link&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a class="in-text">In-text link</a>
+      </section>
+
+      <section>
+        <h2>Submit Buttons</h2>
+        <h3>CSS selector:</h3>
+        <p>.submit-btn</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;input class="submit-btn" type="submit" /&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <input class="submit-btn" type="submit">
+
+         <h2>Reset Buttons</h2>
+        <h3>CSS selector:</h3>
+        <p>.reset-btn</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;input class="reset-btn" type="reset" /&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <input class="reset-btn" type="reset">
+      </section>
+
+      <section>
+        <h2>Text Input Field</h2>
+        <h3>CSS selector:</h3>
+        <p>.input-text</p>
+        <p>.input-text:active, .input-text:focus</p>
+
+        <h3>Sample code:</h3>
+        <code>
+    &lt;label&gt;your name&lt;/label&gt;
+    &lt;input class="input-text" type="text" /&gt;</code>
+
+      <h3>Rendered element:</h3>
+      <label>Your Name</label>
+    <input class="input-text" type="text" placeholder="Your Name"/>
+    <span class="focus-border"></span>
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+
+      <section>
+        <h2>Headings with three level</h2>
+        <h3>CSS selector:</h3>
+        <p>.heading-one</p>
+    
+        <h3>Sample code:</h3>
+        <code>&lt;h1 class="heading-one"&gt;Heading one&lt;/h1&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <h1 class="heading-one">Heading one</h1>
+
+        <h3>CSS selector:</h3>
+        <p>.heading-two</p>
+    
+        <h3>Sample code:</h3>
+        <code>&lt;h2 class="heading-two"&gt;Heading two&lt;/h2&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <h1 class="heading-two">Heading two</h1>
+
+        <h3>CSS selector:</h3>
+        <p>.heading-three</p>
+    
+        <h3>Sample code:</h3>
+        <code>&lt;h3 class="heading-three"&gt;Heading three&lt;/h3&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <h1 class="heading-three">Heading three</h1>
+      </section>
+
+      <section>
+        <h2>Paragraphs</h2>
+        <h3>CSS selector:</h3>
+        <p>.main-paragraph</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;p&gt; class="main-Paragraph" This is paragraph.&lt;/p&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <p class="main-paragraph">This is paragraphThis is paragraphThis is paragraphThis is paragraphThis is paragraphThis is paragraph
+        This is paragraphThis is paragraphThis is paragraphThis is paragraphThis is paragraphThis is paragraph</p>
+      </section>
+
+      <section>
+        <h2>Bulleted Lists</h2>
+        <h3>CSS selector:</h3>
+        <p>.bullet-list</p>
+    
+        <h3>Sample code:</h3>
+
+        <code>
+        &lt;ul class=".bullet-list"&gt;
+        &lt;li&gt;bullet list item 1&lt;/li&gt;
+        &lt;li&gt;bullet list item 2&lt;/li&gt;
+        &lt;/ul&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <ul class=".bullet-list">
+      <li>bullet list item 1</li>
+      <li>bullet list item 2</li>
+    </ul>
+      </section>
+
+      <section>
+        <h2>Numbered Lists</h2>
+        <h3>CSS selector:</h3>
+        <p>.num-list</p>
+        <h3>Sample code:</h3>
+        <code>&lt;ol class="num_list"&gt; &lt;li&gt;&lt;a href="#"&gt;number list 1&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;number list 2&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</code>
+        <h3>Rendered element:</h3>
+        <ol class="num-list" >
+        <li><a href="#">Product1</a></li>
+        <li><a href="#">Product2</a></li>
+        </ol>
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+        <h2>Main Navigation</h2>
+        <h3>CSS selector:</h3>
+        <p>.main-nav</p>
+        <p>nav#menu</p>
+    
+       <h3>Sample code:</h3>
+       <code>
+          &lt;nav id="menu"&gt;
+          &lt;a href="#" class="main-nav"&gt;Wedding clothes&lt;/a&gt;
+          &lt;a href="#" class="main-nav"&gt;About Us&lt;/a&gt;
+          &lt;a href="#" class="main-nav"&gt;Feedback&lt;/a&gt;&lt;/nav&gt;
+        </code>
+    
+    <h3>Rendered element:</h3>
+    <nav id="menu">
+      <a href="#" class="main-nav">Wedding clothes</a>
+      <a href="#" class="main-nav">About Us</a>
+      <a href="#" class="main-nav">Feedback</a>
+    </nav>
+
+      </section>
+
+      <section>
+        <h2>Product Listing</h2>
+        <h3>CSS selector:</h3>
+        <p>.product_list</p>
+        <p>.products</p>
+        <p>.products div</p>
+        <p>.products p</p>
+        <p>.products img</p>
+
+        <h3>Rendered element:</h3>
+        <div class="product_list"> 
+
+        <div class="products">
+        <img src="images/weddingdress1.jpg" alt="weddingdress1" width="250" height="350">
+        <p>Wedding dress 1</p>
+        <p>detail</p>
+        <p>detail</p>
+        <a class="rendered-button">Checkout</a>
+        </div>
+
+        <div class="products">
+        <img src="images/weddingdress1.jpg" alt="weddingdress2" width="250" height="350">
+        <p>Wedding dress 2</p>
+        <p>detail</p>
+        <p>detail</p>
+        <a class="rendered-button">Checkout</a>
+        </div>
+
+        <div class="products">
+        <img src="images/weddingdress1.jpg" alt="weddingdress3" width="250" height="350">
+        <p>Wedding dress 3</p>
+        <p>detail</p>
+        <p>detail</p>
+        <a class="rendered-button">Checkout</a>
+        </div>
+
+        <div class="products">
+        <img src="images/weddingdress1.jpg" alt="weddingdress4" width="250" height="350">
+        <p>Wedding dress 4</p>
+        <p>detail</p>
+        <p>detail</p>
+        <a class="rendered-button">Checkout</a>
+        </div>
+        
+
+
+        </div>
+
+      </section>
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+    <!--  // website grid -->
+
+    <section>
+     <h2>Website Grid Structure</h2>
+        <h3>Rendered element:</h3>
+        <div class="whole-struture">
+        <header>
+        <div></div>
+       <div>
+       <nav id="menu">
+       <a href="#" class="main-nav">Wedding clothes</a>
+       <a href="#" class="main-nav">About Us</a>
+       <a href="#" class="main-nav">Feedback</a>
+       </nav> 
+       </div>
+       </header>
+        <body>
+        </body>
+        <footer></footer>
+
+
+
+  </body>
+</html>
